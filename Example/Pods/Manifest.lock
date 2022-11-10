@@ -1,0 +1,16 @@
+PODS:
+  - AFServiceSDK (0.1.0)
+
+DEPENDENCIES:
+  - AFServiceSDK (from `../`)
+
+EXTERNAL SOURCES:
+  AFServiceSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFServiceSDK: 928f046dbebc4b03f3261ce9065a7640fa705502
+
+PODFILE CHECKSUM: fc6501f15b77a3c34001d7f8ee3d1f14122a508e
+
+COCOAPODS: 1.11.3

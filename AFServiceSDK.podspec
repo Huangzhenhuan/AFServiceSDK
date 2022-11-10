@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/mf/AFServiceSDK'
+  s.homepage         = 'https://github.com/Huangzhenhuan/AFServiceSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mf' => '1173077660@qq.com' }
-  s.source           = { :git => 'https://github.com/mf/AFServiceSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Huangzhenhuan/AFServiceSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'AFServiceSDK' => ['AFServiceSDK/Assets/*.png']
   # }
-
+  s.vendored_frameworks    = 'AFServiceSDK/Classes/AFServiceSDK.framework'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

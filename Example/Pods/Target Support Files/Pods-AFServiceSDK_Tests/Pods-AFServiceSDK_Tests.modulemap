@@ -1,0 +1,6 @@
+framework module Pods_AFServiceSDK_Tests {
+  umbrella header "Pods-AFServiceSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
